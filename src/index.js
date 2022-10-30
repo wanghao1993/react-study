@@ -6,6 +6,6 @@ import './index.css';
 
 // 函数组件
 
-import App from './components/functioncom'
+import App from './app'
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App></App>)

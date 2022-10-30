@@ -1,0 +1,25 @@
+.moview {
+    font-size: 12px;
+    background-color: #eee;
+}
+.moview .header {
+    height: 170px;
+    padding: 0 20px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.moview .content {
+    height: calc(100vh - 220px);
+    overflow: auto;
+}
+.moview .footer {
+    height: 50px;
+    display: flex; align-items: center;
+    border-top: 1px solid #999;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
